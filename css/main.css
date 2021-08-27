@@ -27,6 +27,7 @@ body {
 }
 
 .main-btn {
+   display: inline-block;
    cursor: pointer;
    width: 540px;
    font-size: 15px;
@@ -40,7 +41,7 @@ body {
    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
 }
 
-.main-btn span {
+.main-btn a {
    font-weight: 600;
 }
 
@@ -94,7 +95,12 @@ body {
    color: #BAB7D4;
 }
 
-.main-end span a {
+.end-btn {
    font-weight: 600;
    color: #FF7979;
+}
+
+button {
+   border: none;
+   cursor: pointer;
 }
